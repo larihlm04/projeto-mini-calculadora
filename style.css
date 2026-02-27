@@ -1,0 +1,71 @@
+body {
+    background-color: #F7F5F2;
+    font-family:'Poppins' sans-serif;
+
+    /* centraliza tudo na tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* caixa da calculadora */
+.container {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #2E2E2E;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    height:350px;
+    width: 320px;
+    text-align: center;
+    font-size:20px;
+    color:#270707;
+    font-weight: 600;
+}
+
+.text{
+    margin-left:-50px;
+}
+
+/* inputs */
+input {
+    margin-top:20px;
+    width: 40%;
+    padding: 4px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius:10px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* botões */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#ffffff;
+    color:#350808;
+    margin-top:20px;
+    border-radius: 20px;
+}
+
+/* resultado */
+#resultado {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    width:15%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:70%;
+}
+
+.Limp {
+    position: absolute;
+    left: 57%;   /* ajuste conforme quiser */
+    top:130px;    /* ajuste conforme quiser */
+}

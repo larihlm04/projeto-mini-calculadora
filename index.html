@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Mini-calculadora</title>
+</head>
+<body>
+
+
+
+    <div class="container">
+
+
+    <h1 class="text">Calculadora</h1>
+
+    
+    <label class="numero" for="number" id=operarCalculo >Primeiro número:</label>
+    <input class="camp"  type="number" id="num1">
+
+    
+    <label class="numero" for="number" id="operarCalculo2">Segundo número:</label>
+    <input class="camp2" type="number" id="num2">
+
+
+    <button onClick="ExecutarSoma()" id="soma">+</button>
+    <button onClick="ExecutarSubtracao()" id="subtracao">-</button>
+    <button onClick="ExecutarDivisao()" id="divisao">÷</button>
+    <button onClick="ExecutarMultiplicacao()" id="multiplicacao">x</button>
+    <button onClick="ExecutarPorcentagem()" id="porcentagem">%</button>
+
+
+
+    <input id="resultado">
+
+
+    <button class="Limp" onClick="Limpar()" id="limpar">C</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
